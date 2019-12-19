@@ -1,2 +1,5 @@
-# algorithmic-projects
-various algorithmic projects for classical problems
+# N-Queens
+
+This project is an implementation of the classical N-Queens problem.
+
+
