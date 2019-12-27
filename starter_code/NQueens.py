@@ -46,6 +46,6 @@ class NQueensBoard:
             self.__antidiags.remove(-1 * row + col)
             self.__board[row][col] = ord("-")
 
-    # Returns a matrix of the current state of the board
-    def export_state(self):
-        return line.decode() for line in self.__board
+    # Returns a string of the current state of the board
+    def __str__(self):
+        return str(line.decode() for line in self.__board)
